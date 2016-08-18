@@ -1,5 +1,9 @@
-package com.demo;//入门  ， 数组  ，排序  ， 查找 等基本方法
+package com.demo;
 
+/**
+ * idea
+ * 入门，数组，排序，查找等基本方法
+ */
 import javax.swing.*;
 
 @SuppressWarnings("serial")
