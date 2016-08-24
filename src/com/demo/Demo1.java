@@ -6,7 +6,6 @@ package com.demo;
  */
 import javax.swing.*;
 
-@SuppressWarnings("serial")
 public class Demo1 extends JFrame{
 
 	private static final int WIDTH = 500;
