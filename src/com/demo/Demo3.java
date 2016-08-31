@@ -1,7 +1,9 @@
 package com.demo;
+
 /**
  * ³Ë·¨±í
  */
+
 import java.util.Scanner;
 
 public class Demo3 {
