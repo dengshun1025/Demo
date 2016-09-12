@@ -15,7 +15,8 @@ class TreeNode {
 }
 
 public class IsSymmetric {
-    private static boolean isSymmetric(TreeNode root) {
+
+    static boolean isSymmetric(TreeNode root) {
         return root==null||isSymmetric(root.left,root.right);
     }
 
@@ -27,7 +28,7 @@ public class IsSymmetric {
         return tree1.val == tree2.val&&isSymmetric(tree1.left,tree2.right)&&isSymmetric(tree1.right,tree2.left);
     }
 
-    private static void inorder(TreeNode root, ArrayList<Integer> ret){
+    static void inorder(TreeNode root, ArrayList<Integer> ret){
         if(root == null)
             return;
         if(root.left!=null)
